@@ -1,0 +1,10 @@
+D:\Users\Sakur\Desktop\PROYECTOS PROGRAMACION\VBNet\Presentacion\bin\Debug\Presentacion.exe.config
+D:\Users\Sakur\Desktop\PROYECTOS PROGRAMACION\VBNet\Presentacion\bin\Debug\Presentacion.exe
+D:\Users\Sakur\Desktop\PROYECTOS PROGRAMACION\VBNet\Presentacion\bin\Debug\Presentacion.pdb
+D:\Users\Sakur\Desktop\PROYECTOS PROGRAMACION\VBNet\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+D:\Users\Sakur\Desktop\PROYECTOS PROGRAMACION\VBNet\Presentacion\obj\Debug\Presentacion.MiprimerForm.resources
+D:\Users\Sakur\Desktop\PROYECTOS PROGRAMACION\VBNet\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+D:\Users\Sakur\Desktop\PROYECTOS PROGRAMACION\VBNet\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+D:\Users\Sakur\Desktop\PROYECTOS PROGRAMACION\VBNet\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+D:\Users\Sakur\Desktop\PROYECTOS PROGRAMACION\VBNet\Presentacion\obj\Debug\Presentacion.exe
+D:\Users\Sakur\Desktop\PROYECTOS PROGRAMACION\VBNet\Presentacion\obj\Debug\Presentacion.pdb
