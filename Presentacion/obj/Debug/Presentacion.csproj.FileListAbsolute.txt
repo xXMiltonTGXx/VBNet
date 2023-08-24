@@ -8,3 +8,4 @@ D:\Users\Sakur\Desktop\PROYECTOS PROGRAMACION\VBNet\Presentacion\obj\Debug\Prese
 D:\Users\Sakur\Desktop\PROYECTOS PROGRAMACION\VBNet\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
 D:\Users\Sakur\Desktop\PROYECTOS PROGRAMACION\VBNet\Presentacion\obj\Debug\Presentacion.exe
 D:\Users\Sakur\Desktop\PROYECTOS PROGRAMACION\VBNet\Presentacion\obj\Debug\Presentacion.pdb
+D:\Users\Sakur\Desktop\PROYECTOS PROGRAMACION\VBNet\Presentacion\obj\Debug\Presentacion.frm_Encuesta.resources

@@ -29,88 +29,88 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MiprimerForm));
-            this.btnNuevo = new System.Windows.Forms.Button();
-            this.btnActualizar = new System.Windows.Forms.Button();
-            this.btnEliminar = new System.Windows.Forms.Button();
-            this.btnSalir = new System.Windows.Forms.Button();
-            this.btnReporte = new System.Windows.Forms.Button();
+            this.BtnNuevo = new System.Windows.Forms.Button();
+            this.BtnActualizar = new System.Windows.Forms.Button();
+            this.BtnEliminar = new System.Windows.Forms.Button();
+            this.BtnSalir = new System.Windows.Forms.Button();
+            this.BtnReporte = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.txtCodigo = new System.Windows.Forms.TextBox();
             this.txtDescripcion = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // btnNuevo
+            // BtnNuevo
             // 
-            this.btnNuevo.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.btnNuevo.Font = new System.Drawing.Font("Microsoft YaHei", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNuevo.ForeColor = System.Drawing.Color.Navy;
-            this.btnNuevo.Image = ((System.Drawing.Image)(resources.GetObject("btnNuevo.Image")));
-            this.btnNuevo.Location = new System.Drawing.Point(36, 419);
-            this.btnNuevo.Name = "btnNuevo";
-            this.btnNuevo.Size = new System.Drawing.Size(135, 122);
-            this.btnNuevo.TabIndex = 3;
-            this.btnNuevo.Text = "Nuevo";
-            this.btnNuevo.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnNuevo.UseVisualStyleBackColor = false;
-            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
+            this.BtnNuevo.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BtnNuevo.Font = new System.Drawing.Font("Microsoft YaHei", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnNuevo.ForeColor = System.Drawing.Color.Navy;
+            this.BtnNuevo.Image = ((System.Drawing.Image)(resources.GetObject("BtnNuevo.Image")));
+            this.BtnNuevo.Location = new System.Drawing.Point(36, 419);
+            this.BtnNuevo.Name = "BtnNuevo";
+            this.BtnNuevo.Size = new System.Drawing.Size(135, 122);
+            this.BtnNuevo.TabIndex = 3;
+            this.BtnNuevo.Text = "Nuevo";
+            this.BtnNuevo.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnNuevo.UseVisualStyleBackColor = false;
+            this.BtnNuevo.Click += new System.EventHandler(this.BtnNuevo_Click);
             // 
-            // btnActualizar
+            // BtnActualizar
             // 
-            this.btnActualizar.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.btnActualizar.Font = new System.Drawing.Font("Microsoft YaHei", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnActualizar.ForeColor = System.Drawing.Color.Navy;
-            this.btnActualizar.Image = ((System.Drawing.Image)(resources.GetObject("btnActualizar.Image")));
-            this.btnActualizar.Location = new System.Drawing.Point(196, 419);
-            this.btnActualizar.Name = "btnActualizar";
-            this.btnActualizar.Size = new System.Drawing.Size(135, 122);
-            this.btnActualizar.TabIndex = 4;
-            this.btnActualizar.Text = "Actualizar";
-            this.btnActualizar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnActualizar.UseVisualStyleBackColor = false;
+            this.BtnActualizar.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BtnActualizar.Font = new System.Drawing.Font("Microsoft YaHei", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnActualizar.ForeColor = System.Drawing.Color.Navy;
+            this.BtnActualizar.Image = ((System.Drawing.Image)(resources.GetObject("BtnActualizar.Image")));
+            this.BtnActualizar.Location = new System.Drawing.Point(196, 419);
+            this.BtnActualizar.Name = "BtnActualizar";
+            this.BtnActualizar.Size = new System.Drawing.Size(135, 122);
+            this.BtnActualizar.TabIndex = 4;
+            this.BtnActualizar.Text = "Actualizar";
+            this.BtnActualizar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnActualizar.UseVisualStyleBackColor = false;
             // 
-            // btnEliminar
+            // BtnEliminar
             // 
-            this.btnEliminar.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.btnEliminar.Font = new System.Drawing.Font("Microsoft YaHei", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminar.ForeColor = System.Drawing.Color.Navy;
-            this.btnEliminar.Image = ((System.Drawing.Image)(resources.GetObject("btnEliminar.Image")));
-            this.btnEliminar.Location = new System.Drawing.Point(357, 419);
-            this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(135, 122);
-            this.btnEliminar.TabIndex = 5;
-            this.btnEliminar.Text = "Eliminar";
-            this.btnEliminar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnEliminar.UseVisualStyleBackColor = false;
+            this.BtnEliminar.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BtnEliminar.Font = new System.Drawing.Font("Microsoft YaHei", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEliminar.ForeColor = System.Drawing.Color.Navy;
+            this.BtnEliminar.Image = ((System.Drawing.Image)(resources.GetObject("BtnEliminar.Image")));
+            this.BtnEliminar.Location = new System.Drawing.Point(357, 419);
+            this.BtnEliminar.Name = "BtnEliminar";
+            this.BtnEliminar.Size = new System.Drawing.Size(135, 122);
+            this.BtnEliminar.TabIndex = 5;
+            this.BtnEliminar.Text = "Eliminar";
+            this.BtnEliminar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnEliminar.UseVisualStyleBackColor = false;
             // 
-            // btnSalir
+            // BtnSalir
             // 
-            this.btnSalir.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.btnSalir.Font = new System.Drawing.Font("Microsoft YaHei", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalir.ForeColor = System.Drawing.Color.Navy;
-            this.btnSalir.Image = ((System.Drawing.Image)(resources.GetObject("btnSalir.Image")));
-            this.btnSalir.Location = new System.Drawing.Point(686, 419);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(135, 122);
-            this.btnSalir.TabIndex = 7;
-            this.btnSalir.Text = "Salir";
-            this.btnSalir.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnSalir.UseVisualStyleBackColor = false;
-            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            this.BtnSalir.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BtnSalir.Font = new System.Drawing.Font("Microsoft YaHei", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSalir.ForeColor = System.Drawing.Color.Navy;
+            this.BtnSalir.Image = ((System.Drawing.Image)(resources.GetObject("BtnSalir.Image")));
+            this.BtnSalir.Location = new System.Drawing.Point(686, 419);
+            this.BtnSalir.Name = "BtnSalir";
+            this.BtnSalir.Size = new System.Drawing.Size(135, 122);
+            this.BtnSalir.TabIndex = 7;
+            this.BtnSalir.Text = "Salir";
+            this.BtnSalir.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnSalir.UseVisualStyleBackColor = false;
+            this.BtnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
-            // btnReporte
+            // BtnReporte
             // 
-            this.btnReporte.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.btnReporte.Font = new System.Drawing.Font("Microsoft YaHei", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReporte.ForeColor = System.Drawing.Color.Navy;
-            this.btnReporte.Image = ((System.Drawing.Image)(resources.GetObject("btnReporte.Image")));
-            this.btnReporte.Location = new System.Drawing.Point(522, 419);
-            this.btnReporte.Name = "btnReporte";
-            this.btnReporte.Size = new System.Drawing.Size(135, 122);
-            this.btnReporte.TabIndex = 6;
-            this.btnReporte.Text = "Reporte";
-            this.btnReporte.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnReporte.UseVisualStyleBackColor = false;
+            this.BtnReporte.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BtnReporte.Font = new System.Drawing.Font("Microsoft YaHei", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnReporte.ForeColor = System.Drawing.Color.Navy;
+            this.BtnReporte.Image = ((System.Drawing.Image)(resources.GetObject("BtnReporte.Image")));
+            this.BtnReporte.Location = new System.Drawing.Point(522, 419);
+            this.BtnReporte.Name = "BtnReporte";
+            this.BtnReporte.Size = new System.Drawing.Size(135, 122);
+            this.BtnReporte.TabIndex = 6;
+            this.BtnReporte.Text = "Reporte";
+            this.BtnReporte.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.BtnReporte.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
@@ -163,14 +163,15 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtCodigo);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnSalir);
-            this.Controls.Add(this.btnReporte);
-            this.Controls.Add(this.btnEliminar);
-            this.Controls.Add(this.btnActualizar);
-            this.Controls.Add(this.btnNuevo);
+            this.Controls.Add(this.BtnSalir);
+            this.Controls.Add(this.BtnReporte);
+            this.Controls.Add(this.BtnEliminar);
+            this.Controls.Add(this.BtnActualizar);
+            this.Controls.Add(this.BtnNuevo);
             this.Name = "MiprimerForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu Principal";
+            this.Load += new System.EventHandler(this.MiprimerForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -178,11 +179,11 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnNuevo;
-        private System.Windows.Forms.Button btnActualizar;
-        private System.Windows.Forms.Button btnEliminar;
-        private System.Windows.Forms.Button btnSalir;
-        private System.Windows.Forms.Button btnReporte;
+        private System.Windows.Forms.Button BtnNuevo;
+        private System.Windows.Forms.Button BtnActualizar;
+        private System.Windows.Forms.Button BtnEliminar;
+        private System.Windows.Forms.Button BtnSalir;
+        private System.Windows.Forms.Button BtnReporte;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtCodigo;
         private System.Windows.Forms.TextBox txtDescripcion;

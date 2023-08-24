@@ -17,7 +17,7 @@ namespace Presentacion
             InitializeComponent();
         }
 
-        private void btnNuevo_Click(object sender, EventArgs e)
+        private void BtnNuevo_Click(object sender, EventArgs e)
         {
             txtCodigo.Text = "";
             txtDescripcion.Text = "";
@@ -27,7 +27,12 @@ namespace Presentacion
             txtCodigo.Focus();
         }
 
-        private void btnSalir_Click(object sender, EventArgs e)
+        private void BtnSalir_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MiprimerForm_Load(object sender, EventArgs e)
         {
 
         }
