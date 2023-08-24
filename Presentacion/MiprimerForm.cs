@@ -21,20 +21,27 @@ namespace Presentacion
         {
             txtCodigo.Text = "";
             txtDescripcion.Text = "";
-            txtCodigo.Enabled = true;
-            txtDescripcion.Enabled = true;
+
+            GrbMantenimiento.Enabled = true;
+
             //txtCodigo.Select();   para enviar cursor a un objeto
             txtCodigo.Focus();
+
+            //inhabilitar btn
+            grbBotonesPrincipal.Enabled = false;
         }
 
-        private void BtnSalir_Click(object sender, EventArgs e)
+        private void BtnCancelar_Click(object sender, EventArgs e)
         {
+            txtCodigo.Text = "";
+            txtDescripcion.Text = "";
+            GrbMantenimiento.Enabled = false;
+
+            //habilitar btn
+            grbBotonesPrincipal.Enabled = true;
 
         }
 
-        private void MiprimerForm_Load(object sender, EventArgs e)
-        {
-
-        }
+      
     }
 }
