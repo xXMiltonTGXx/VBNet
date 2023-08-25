@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Frm_Encuesta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Encuesta.Designer.cs">
+      <DependentUpon>Frm_Encuesta.cs</DependentUpon>
+    </Compile>
     <Compile Include="MiprimerForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Frm_Encuesta.resx">
+      <DependentUpon>Frm_Encuesta.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MiprimerForm.resx">
       <DependentUpon>MiprimerForm.cs</DependentUpon>
     </EmbeddedResource>
