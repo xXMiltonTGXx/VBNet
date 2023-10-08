@@ -27,3 +27,21 @@ D:\Users\pc\Escritorio\Programacion\Curso C#\Sol_Aprendizaje\Presentacion\obj\De
 D:\Users\pc\Escritorio\Programacion\Curso C#\Sol_Aprendizaje\Presentacion\obj\Debug\Presentacion.Frm_DataGridView.resources
 D:\Users\pc\Escritorio\Programacion\Curso C#\Sol_Aprendizaje\Presentacion\obj\Debug\Presentacion.Frm_Principal.resources
 D:\Users\pc\Escritorio\Programacion\Curso C#\Sol_Aprendizaje\Presentacion\obj\Debug\Presentacion.MDI_Principal.resources
+D:\Users\xXMil\Desktop\Programacion\Ejercicios en C#\VBNet\Presentacion\bin\Debug\Presentacion.exe.config
+D:\Users\xXMil\Desktop\Programacion\Ejercicios en C#\VBNet\Presentacion\bin\Debug\Presentacion.exe
+D:\Users\xXMil\Desktop\Programacion\Ejercicios en C#\VBNet\Presentacion\bin\Debug\Presentacion.pdb
+D:\Users\xXMil\Desktop\Programacion\Ejercicios en C#\VBNet\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+D:\Users\xXMil\Desktop\Programacion\Ejercicios en C#\VBNet\Presentacion\obj\Debug\Presentacion.Frm_DataGridView.resources
+D:\Users\xXMil\Desktop\Programacion\Ejercicios en C#\VBNet\Presentacion\obj\Debug\Presentacion.Frm_Encuesta.resources
+D:\Users\xXMil\Desktop\Programacion\Ejercicios en C#\VBNet\Presentacion\obj\Debug\Presentacion.Frm_numericupdwon.resources
+D:\Users\xXMil\Desktop\Programacion\Ejercicios en C#\VBNet\Presentacion\obj\Debug\Presentacion.Frm_Principal.resources
+D:\Users\xXMil\Desktop\Programacion\Ejercicios en C#\VBNet\Presentacion\obj\Debug\Presentacion.Frm_Tiempo.resources
+D:\Users\xXMil\Desktop\Programacion\Ejercicios en C#\VBNet\Presentacion\obj\Debug\Presentacion.Frm_trabajandoCombobox.resources
+D:\Users\xXMil\Desktop\Programacion\Ejercicios en C#\VBNet\Presentacion\obj\Debug\Presentacion.Frm_TrackBar.resources
+D:\Users\xXMil\Desktop\Programacion\Ejercicios en C#\VBNet\Presentacion\obj\Debug\Presentacion.MDI_Principal.resources
+D:\Users\xXMil\Desktop\Programacion\Ejercicios en C#\VBNet\Presentacion\obj\Debug\Presentacion.MiprimerForm.resources
+D:\Users\xXMil\Desktop\Programacion\Ejercicios en C#\VBNet\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+D:\Users\xXMil\Desktop\Programacion\Ejercicios en C#\VBNet\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+D:\Users\xXMil\Desktop\Programacion\Ejercicios en C#\VBNet\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+D:\Users\xXMil\Desktop\Programacion\Ejercicios en C#\VBNet\Presentacion\obj\Debug\Presentacion.exe
+D:\Users\xXMil\Desktop\Programacion\Ejercicios en C#\VBNet\Presentacion\obj\Debug\Presentacion.pdb

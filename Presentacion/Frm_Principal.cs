@@ -29,7 +29,10 @@ namespace Presentacion
                 Frm_01.FormClosed += new FormClosedEventHandler(Alta_frm_01);
                 Frm_01.Show();
             }
-            
+            else
+            {
+                Frm_01.Activate(); 
+            }
         }
 
         void Alta_frm_01(object sender, EventArgs e)
@@ -39,9 +42,53 @@ namespace Presentacion
 
         private void trackBarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Frm_02 = new Frm_TrackBar();
-            Frm_02.MdiParent = this;
-            Frm_02.Show();
+            if (Frm_02 == null)
+            {
+                Frm_02 = new Frm_TrackBar();
+                Frm_02.MdiParent = this;
+                Frm_02.FormClosed += new FormClosedEventHandler(Alta_frm_02);
+                Frm_02.Show();
+            }
+            else
+            {
+                Frm_02.Activate();
+            }
+           
+        }
+
+        void Alta_frm_02(object sender, EventArgs e)
+        {
+            Frm_02 = null;
+        }
+
+        private void m_btn01_Click(object sender, EventArgs e)
+        {
+            if (Frm_01 == null)
+            {
+                Frm_01 = new MiprimerForm();
+                Frm_01.MdiParent = this;
+                Frm_01.FormClosed += new FormClosedEventHandler(Alta_frm_01);
+                Frm_01.Show();
+            }
+            else
+            {
+                Frm_01.Activate();
+            }
+        }
+
+        private void m_btn02_Click(object sender, EventArgs e)
+        {
+            if (Frm_02 == null)
+            {
+                Frm_02 = new Frm_TrackBar();
+                Frm_02.MdiParent = this;
+                Frm_02.FormClosed += new FormClosedEventHandler(Alta_frm_02);
+                Frm_02.Show();
+            }
+            else
+            {
+                Frm_02.Activate();
+            }
         }
     }
 }
