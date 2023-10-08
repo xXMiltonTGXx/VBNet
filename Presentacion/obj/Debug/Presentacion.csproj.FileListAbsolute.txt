@@ -20,3 +20,10 @@ D:\Users\pc\Escritorio\Programacion\Curso C#\Sol_Aprendizaje\Presentacion\obj\De
 D:\Users\pc\Escritorio\Programacion\Curso C#\Sol_Aprendizaje\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
 D:\Users\pc\Escritorio\Programacion\Curso C#\Sol_Aprendizaje\Presentacion\obj\Debug\Presentacion.exe
 D:\Users\pc\Escritorio\Programacion\Curso C#\Sol_Aprendizaje\Presentacion\obj\Debug\Presentacion.pdb
+D:\Users\pc\Escritorio\Programacion\Curso C#\Sol_Aprendizaje\Presentacion\obj\Debug\Presentacion.Frm_trabajandoCombobox.resources
+D:\Users\pc\Escritorio\Programacion\Curso C#\Sol_Aprendizaje\Presentacion\obj\Debug\Presentacion.Frm_numericupdwon.resources
+D:\Users\pc\Escritorio\Programacion\Curso C#\Sol_Aprendizaje\Presentacion\obj\Debug\Presentacion.Frm_Tiempo.resources
+D:\Users\pc\Escritorio\Programacion\Curso C#\Sol_Aprendizaje\Presentacion\obj\Debug\Presentacion.Frm_TrackBar.resources
+D:\Users\pc\Escritorio\Programacion\Curso C#\Sol_Aprendizaje\Presentacion\obj\Debug\Presentacion.Frm_DataGridView.resources
+D:\Users\pc\Escritorio\Programacion\Curso C#\Sol_Aprendizaje\Presentacion\obj\Debug\Presentacion.Frm_Principal.resources
+D:\Users\pc\Escritorio\Programacion\Curso C#\Sol_Aprendizaje\Presentacion\obj\Debug\Presentacion.MDI_Principal.resources

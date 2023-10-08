@@ -46,11 +46,53 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Frm_DataGridView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_DataGridView.Designer.cs">
+      <DependentUpon>Frm_DataGridView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_numericupdwon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_numericupdwon.Designer.cs">
+      <DependentUpon>Frm_numericupdwon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Principal.Designer.cs">
+      <DependentUpon>Frm_Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Tiempo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Tiempo.Designer.cs">
+      <DependentUpon>Frm_Tiempo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_trabajandoCombobox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_trabajandoCombobox.Designer.cs">
+      <DependentUpon>Frm_trabajandoCombobox.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Encuesta.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Frm_Encuesta.Designer.cs">
       <DependentUpon>Frm_Encuesta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_TrackBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_TrackBar.Designer.cs">
+      <DependentUpon>Frm_TrackBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDI_Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDI_Principal.Designer.cs">
+      <DependentUpon>MDI_Principal.cs</DependentUpon>
     </Compile>
     <Compile Include="MiprimerForm.cs">
       <SubType>Form</SubType>
@@ -60,8 +102,29 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Frm_DataGridView.resx">
+      <DependentUpon>Frm_DataGridView.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_Encuesta.resx">
       <DependentUpon>Frm_Encuesta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_numericupdwon.resx">
+      <DependentUpon>Frm_numericupdwon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Principal.resx">
+      <DependentUpon>Frm_Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Tiempo.resx">
+      <DependentUpon>Frm_Tiempo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_trabajandoCombobox.resx">
+      <DependentUpon>Frm_trabajandoCombobox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_TrackBar.resx">
+      <DependentUpon>Frm_TrackBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDI_Principal.resx">
+      <DependentUpon>MDI_Principal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MiprimerForm.resx">
       <DependentUpon>MiprimerForm.cs</DependentUpon>

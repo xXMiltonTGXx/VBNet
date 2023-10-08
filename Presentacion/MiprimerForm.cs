@@ -83,7 +83,7 @@ namespace Presentacion
         {
             string TextoSeleccionado;
             int LongitudTexto;
-            TextoSeleccionado = list_mantenimiento.SelectedItem.ToString().Trim();
+            TextoSeleccionado = this.list_mantenimiento.SelectedItem.ToString().Trim();
             LongitudTexto = TextoSeleccionado.Length;
             txtCodigo.Text = TextoSeleccionado.Substring(0, 3);
             txtDescripcion.Text = TextoSeleccionado.Substring(6, LongitudTexto-6);
