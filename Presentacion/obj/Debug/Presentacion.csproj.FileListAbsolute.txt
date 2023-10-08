@@ -9,3 +9,14 @@ D:\Users\Sakur\Desktop\PROYECTOS PROGRAMACION\VBNet\Presentacion\obj\Debug\Prese
 D:\Users\Sakur\Desktop\PROYECTOS PROGRAMACION\VBNet\Presentacion\obj\Debug\Presentacion.exe
 D:\Users\Sakur\Desktop\PROYECTOS PROGRAMACION\VBNet\Presentacion\obj\Debug\Presentacion.pdb
 D:\Users\Sakur\Desktop\PROYECTOS PROGRAMACION\VBNet\Presentacion\obj\Debug\Presentacion.frm_Encuesta.resources
+D:\Users\pc\Escritorio\Programacion\Curso C#\Sol_Aprendizaje\Presentacion\bin\Debug\Presentacion.exe.config
+D:\Users\pc\Escritorio\Programacion\Curso C#\Sol_Aprendizaje\Presentacion\bin\Debug\Presentacion.exe
+D:\Users\pc\Escritorio\Programacion\Curso C#\Sol_Aprendizaje\Presentacion\bin\Debug\Presentacion.pdb
+D:\Users\pc\Escritorio\Programacion\Curso C#\Sol_Aprendizaje\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+D:\Users\pc\Escritorio\Programacion\Curso C#\Sol_Aprendizaje\Presentacion\obj\Debug\Presentacion.Frm_Encuesta.resources
+D:\Users\pc\Escritorio\Programacion\Curso C#\Sol_Aprendizaje\Presentacion\obj\Debug\Presentacion.MiprimerForm.resources
+D:\Users\pc\Escritorio\Programacion\Curso C#\Sol_Aprendizaje\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+D:\Users\pc\Escritorio\Programacion\Curso C#\Sol_Aprendizaje\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+D:\Users\pc\Escritorio\Programacion\Curso C#\Sol_Aprendizaje\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+D:\Users\pc\Escritorio\Programacion\Curso C#\Sol_Aprendizaje\Presentacion\obj\Debug\Presentacion.exe
+D:\Users\pc\Escritorio\Programacion\Curso C#\Sol_Aprendizaje\Presentacion\obj\Debug\Presentacion.pdb
