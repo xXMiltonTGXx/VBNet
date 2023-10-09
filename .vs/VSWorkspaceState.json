@@ -3,6 +3,10 @@
     "",
     "\\Datos"
   ],
+<<<<<<< Updated upstream
   "SelectedNode": "\\Datos\\Conexion.cs",
+=======
+  "SelectedNode": "\\Presentacion\\Frm_Principal.cs",
+>>>>>>> Stashed changes
   "PreviewInSolutionExplorer": false
 }
