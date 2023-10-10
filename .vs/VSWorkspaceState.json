@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\Datos",
-    "\\Presentacion"
+    "\\Presentacion",
+    "\\Presentacion\\Properties",
+    "\\Presentacion\\Reportes"
   ],
-  "SelectedNode": "\\Datos\\Conexion.cs",
+  "SelectedNode": "\\Presentacion\\Reportes\\DS_Reportes.xsd",
   "PreviewInSolutionExplorer": false
 }
