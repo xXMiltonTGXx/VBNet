@@ -23,6 +23,11 @@ namespace Negocio
             return Datos.Guardar_ca(Opcion, oca);
         }
 
+        public static string Eliminar_ca(int Codigo)
+        {
+            D_Categorias Datos = new D_Categorias();
+            return Datos.Eliminar_ca(Codigo);
+        }
 
 
 

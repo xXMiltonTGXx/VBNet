@@ -59,11 +59,49 @@ namespace Datos
                 // Verificar si se insertó o actualizó correctamente
                 if (filasAfectadas > 0)
                 {
-                    Rpta = "Operación exitosa";
+                    Rpta = "OK";
                 }
                 else
                 {
                     Rpta = "No se realizó ninguna operación en la base de datos";
+                }
+            }
+            catch (Exception ex)
+            {
+                Rpta = "Error: " + ex.Message; // Captura y registra el mensaje de excepción
+            }
+            finally
+            {
+                if (conexion.State == ConnectionState.Open)
+                {
+                    conexion.Close();
+                }
+            }
+            return Rpta;
+        }
+
+
+        public string Eliminar_ca(int Codigo)
+        {
+            string Rpta = "";
+            MySqlConnection conexion = new MySqlConnection();
+            try
+            {
+                conexion = Conexion.GetInstancia().CrearConexion();
+                MySqlCommand Comando = new MySqlCommand("USP_Eliminar_ca", conexion);
+                Comando.CommandType = CommandType.StoredProcedure;
+                Comando.Parameters.Add("pCodigo", MySqlDbType.Int32).Value = Codigo;
+                conexion.Open();
+                int filasAfectadas = Comando.ExecuteNonQuery();
+
+                // Verificar si se insertó o actualizó correctamente
+                if (filasAfectadas > 0)
+                {
+                    Rpta = "OK";
+                }
+                else
+                {
+                    Rpta = "No se pudo eliminar el registro";
                 }
             }
             catch (Exception ex)

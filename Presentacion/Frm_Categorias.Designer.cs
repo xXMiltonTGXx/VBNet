@@ -55,6 +55,7 @@
             this.dgvPrincipal.ReadOnly = true;
             this.dgvPrincipal.Size = new System.Drawing.Size(453, 234);
             this.dgvPrincipal.TabIndex = 0;
+            this.dgvPrincipal.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPrincipal_CellClick);
             // 
             // label1
             // 
@@ -67,6 +68,7 @@
             // 
             // txt_descripcion_ca
             // 
+            this.txt_descripcion_ca.Enabled = false;
             this.txt_descripcion_ca.Location = new System.Drawing.Point(118, 84);
             this.txt_descripcion_ca.Name = "txt_descripcion_ca";
             this.txt_descripcion_ca.Size = new System.Drawing.Size(100, 20);
@@ -74,6 +76,7 @@
             // 
             // btnGuardar
             // 
+            this.btnGuardar.Enabled = false;
             this.btnGuardar.Location = new System.Drawing.Point(65, 123);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(75, 23);
@@ -84,12 +87,14 @@
             // 
             // btnCancelar
             // 
+            this.btnCancelar.Enabled = false;
             this.btnCancelar.Location = new System.Drawing.Point(166, 123);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(75, 23);
             this.btnCancelar.TabIndex = 4;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btnNuevo
             // 
@@ -99,28 +104,31 @@
             this.btnNuevo.TabIndex = 5;
             this.btnNuevo.Text = "NUEVO";
             this.btnNuevo.UseVisualStyleBackColor = true;
+            this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
             // 
             // btnActualizar
             // 
             this.btnActualizar.Location = new System.Drawing.Point(143, 343);
             this.btnActualizar.Name = "btnActualizar";
-            this.btnActualizar.Size = new System.Drawing.Size(75, 54);
+            this.btnActualizar.Size = new System.Drawing.Size(92, 54);
             this.btnActualizar.TabIndex = 6;
             this.btnActualizar.Text = "ACTUALIZAR";
             this.btnActualizar.UseVisualStyleBackColor = true;
+            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(241, 343);
+            this.btnEliminar.Location = new System.Drawing.Point(252, 343);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(75, 54);
             this.btnEliminar.TabIndex = 7;
             this.btnEliminar.Text = "ELIMINAR";
             this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // btnReporte
             // 
-            this.btnReporte.Location = new System.Drawing.Point(335, 343);
+            this.btnReporte.Location = new System.Drawing.Point(346, 343);
             this.btnReporte.Name = "btnReporte";
             this.btnReporte.Size = new System.Drawing.Size(75, 54);
             this.btnReporte.TabIndex = 8;
@@ -129,12 +137,13 @@
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(431, 343);
+            this.btnSalir.Location = new System.Drawing.Point(442, 343);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(75, 54);
             this.btnSalir.TabIndex = 9;
             this.btnSalir.Text = "SALIR";
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // txtBuscar
             // 
@@ -160,6 +169,7 @@
             this.btnBuscar.TabIndex = 12;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // Frm_Categorias
             // 
@@ -180,6 +190,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dgvPrincipal);
             this.Name = "Frm_Categorias";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_Categorias";
             this.Load += new System.EventHandler(this.Frm_Categorias_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvPrincipal)).EndInit();

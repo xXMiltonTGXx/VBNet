@@ -15,6 +15,7 @@ namespace Presentacion
         //Instanciar los form del menu principal
         MiprimerForm Frm_01;
         Frm_TrackBar Frm_02;
+        Frm_Categorias Frm_ca;
         public Frm_Principal()
         {
             InitializeComponent();
@@ -90,5 +91,26 @@ namespace Presentacion
                 Frm_02.Activate();
             }
         }
+
+        private void categoriasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (Frm_ca == null)
+            {
+                Frm_ca = new Frm_Categorias();
+                Frm_ca.MdiParent = this;
+                Frm_ca.FormClosed += new FormClosedEventHandler(Alta_frm_ca);
+                Frm_ca.Show();
+            }
+            else
+            {
+                Frm_ca.Activate();
+            }
+        }
+        void Alta_frm_ca(object sender, EventArgs e)
+        {
+            Frm_ca = null;
+        }
+
+        
     }
 }
