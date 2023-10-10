@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 
 namespace Datos
@@ -14,42 +10,47 @@ namespace Datos
         private string Usuario;
         private string Clave;
         private static Conexion Con = null;
-        public class Conexion
+
+        // Constructor privado para evitar la creación de instancias desde fuera de la clase
+        private Conexion()
         {
-            private string Base;
-            private string Servidor;
-            private string Usuario;
-            private string Clave;
+            this.Base = "MiBaseDatos";
+            this.Servidor = "Localhost";
+            this.Usuario = "root";
+            this.Clave = "";
+        }
 
-            // Agregamos un constructor público para inicializar las credenciales
-            public Conexion(string baseDatos, string servidor, string usuario, string clave)
+        // Constructor público para inicializar las credenciales
+        public Conexion(string baseDatos, string servidor, string usuario, string clave)
+        {
+            this.Base = baseDatos;
+            this.Servidor = servidor;
+            this.Usuario = usuario;
+            this.Clave = clave;
+        }
+
+        public MySqlConnection CrearConexion()
+        {
+            MySqlConnection conexion = new MySqlConnection();
+            try
             {
-                this.Base = baseDatos;
-                this.Servidor = servidor;
-                this.Usuario = usuario;
-                this.Clave = clave;
+                conexion.ConnectionString = "Server=" + this.Servidor + "; Database=" + this.Base + "; User Id=" + this.Usuario + "; Password=" + this.Clave;
             }
-
-            public MySqlConnection CrearConexion() {
-                MySqlConnection conexion = new MySqlConnection();
-                try
-                {
-                    conexion.ConnectionString = "Server="+this.Servidor+"; Database="+this.Base+"; User Id="+this.Usuario+"; Password="+this.Clave;
-                }
-                catch (Exception ex)
-                {
-                    conexion = null;  
-                    throw ex;
-                }
-                 return conexion;
-            }
-
-            public static Conexion GetInstancia()
+            catch (Exception ex)
             {
-                if (Con == null) { 
-                    Con = new Conexion();
-                }
-                return Con; 
+                conexion = null;
+                throw ex;
             }
+            return conexion;
+        }
+
+        public static Conexion GetInstancia()
+        {
+            if (Con == null)
+            {
+                Con = new Conexion();
+            }
+            return Con;
+        }
     }
 }

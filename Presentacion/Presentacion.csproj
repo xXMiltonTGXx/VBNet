@@ -115,6 +115,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Frm_Categorias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Categorias.Designer.cs">
+      <DependentUpon>Frm_Categorias.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_DataGridView.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -171,6 +177,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Frm_Categorias.resx">
+      <DependentUpon>Frm_Categorias.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_DataGridView.resx">
       <DependentUpon>Frm_DataGridView.cs</DependentUpon>
     </EmbeddedResource>
@@ -222,6 +231,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Datos\Datos.csproj">
+      <Project>{41D6ED39-C407-4AF5-B087-6D83595F1984}</Project>
+      <Name>Datos</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Entidades\Entidades.csproj">
       <Project>{034dd882-acd2-4426-bcfb-5b5595a9b11d}</Project>
       <Name>Entidades</Name>
